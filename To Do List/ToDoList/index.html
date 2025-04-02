@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="clipboard.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="title">
+                <h1>To Do List </h1><img src="clipboard.png" alt="">
+            </div>
+            <input type="text" id="txt" placeholder="Ir ao mercado...">
+            <span id="aviso" style="color: rgb(233, 106, 106);"></span>
+            <div class="btns">
+                <button class="btn" onclick="adicionar()">Adicionar</button>
+                <button class="btn2" onclick="limpar()">Limpar</button>
+            </div>
+
+            <div id="task"></div>
+            <span class="spn">&copy; 2025 J. Henrique</span>
+            <a href="https://github.com/Rickzinho3"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
