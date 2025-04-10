@@ -8,3 +8,6 @@
     <h3><a href="https://github.com/Rickzinho3">J. Henrique</a> © 2023</h3>
 </div>
 <hr/>
+
+## Novidades
+Agora o projeto conta com um `cursor customizado` utilizando CSS e Js puro.
